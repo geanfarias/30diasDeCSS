@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    height: 500px;
+}
+
+@mixin Teste {
+    li {
+        height: 40px;
+        width: 40px;
+        margin: 0px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        span {
+            background-color: red;
+            color: white;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(-30deg) skew(25deg);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: all .5s;
+        }
+
+        &:hover {
+            span {
+                transition: all .4s;
+                box-shadow: -1px 1px 1px rgba(0, 0, 0, .1);
+
+                &:nth-child(1) {
+                    top: 0%;
+                    opacity: .1;
+                    transition: all .4s;
+                }
+
+                &:nth-child(2) {
+                    top: -15%;
+                    opacity: .3;
+                    transition: all .4s;
+                }
+
+                &:nth-child(3) {
+                    top: -30%;
+                    opacity: .5;
+                    transition: all .4s;
+                }
+
+                &:nth-child(4) {
+                    top: -50%;
+                    opacity: .7;
+                    transition: all .4s;
+                }
+
+                &:nth-child(5) {
+                    top: -70%;
+                    transition: all .4s;
+                }
+            }
+        }
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    position: relative;
+
+    @include Teste();
+
+    li {
+        &:nth-child(1) {
+            span {
+                background-color: #3b5999;
+            }
+        }
+
+        &:nth-child(2) {
+            span {
+                background-color: #55acee;
+            }
+        }
+
+        &:nth-child(3) {
+            span {
+                background-color: #dd4b39;
+            }
+        }
+
+        &:nth-child(4) {
+            span {
+                background-color: #0077b5;
+            }
+        }
+
+        &:nth-child(5) {
+            span {
+                background-color: #e4405f;
+            }
+        }
+    }
+}
+
+.block-icons {
+    margin: auto;
+}
