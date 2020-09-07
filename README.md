@@ -6,11 +6,11 @@
 
  ## 🏷️ Objetivo
 
-30 dias de CSS3 é um desafio que a [MilenaCarecho](https://github.com/MilenaCarecho) iniciou e tornou esta iniciativa pública no GitHub para os demais desenvolvedores interessados participarem, que visando a melhora das habilidades em HTML5 e CSS3 através da realização destes pequenos projetos ao decorrer dos 30dias.
+30 dias de CSS3 é um desafio que a [MilenaCarecho](https://github.com/MilenaCarecho) iniciou e tornou esta iniciativa pública no GitHub para os demais desenvolvedores interessados participarem, visando a melhora das habilidades em HTML5 e CSS3 através da realização destes pequenos projetos ao decorrer dos 30dias.
 
 ## ✔️ Regras gerais
 
-Milena deixou algumas regras que podem ser seguidas durante o desafio, e resolvi seguir essas:
+[Milena](https://github.com/MilenaCarecho) deixou algumas regras que podem ser seguidas durante o desafio, e resolvi seguir essas:
 
 * Realizar um projeto por dia
 * Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
