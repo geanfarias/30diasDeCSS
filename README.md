@@ -29,12 +29,26 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A)
 * [DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 
+## 🎯 Desafios
 * [Dia 01 - Ícone de mídia social em camadas](#dia01)
 
+## 🎯 Desafios
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
 ![Dia 01](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-01/screenshot.gif)
 
 
 [Meu codigo git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-01)
+
 [Meu codigo codepen](https://codepen.io/geanfarias/project/editor/APKVJk)
+
 [Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-activity-6708890753805914112-d6D3) 
+
+##### O que coloquei em prática, pois já sabia
+
+* *Camadas utilizando a tag `<span>`*
+* *propriedade `transform` de um elemento 2D ou 3D [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
