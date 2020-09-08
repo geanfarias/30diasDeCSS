@@ -29,17 +29,17 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A)
 * [DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 
-## 🎯 Desafios
+## 🎯 Lista dos Desafios
 * [Dia 01 - Ícone de mídia social em camadas](#dia01)
 
-## 🎯 Desafios
+## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
 ![Dia 01](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-01/screenshot.gif)
 
 
-[Meu codigo git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-01)
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-01)
 
-[Meu codigo codepen](https://codepen.io/geanfarias/project/editor/APKVJk)
+[Meu código codepen](https://codepen.io/geanfarias/project/editor/APKVJk)
 
 [Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-activity-6708890753805914112-d6D3) 
 
