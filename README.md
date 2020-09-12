@@ -111,7 +111,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 * *[-webkit-box-reflect](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect)*
 
-##  Dia 05 - Título com efeito brilhando on hover <a name="dia04"></a>
+##  Dia 05 - Título com efeito brilhando on hover <a name="dia05"></a>
 ![Dia 05](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-05/screenshot.gif)
 
 [Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-05)
