@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(165deg, #003c52 0%, #000735 100%);
+    overflow: hidden;
+
+    .wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-image: url(wave.png);
+        background-size: 1000px 100px;
+
+        &.wave1 {
+            animation: animate 30s linear infinite;
+            z-index: 1000;
+            opacity: 1;
+            animation-delay: 0s;
+            bottom: 0;
+        }
+
+        &.wave2 {
+            animation: animate2 15s linear infinite;
+            z-index: 999;
+            opacity: 0.5;
+            animation-delay: -5s;
+            bottom: 10px;
+        }
+
+        &.wave3 {
+            animation: animate 30s linear infinite;
+            z-index: 998;
+            opacity: 0.2;
+            animation-delay: -2s;
+            bottom: 15px;
+        }
+
+        &.wave4 {
+            animation: animate2 5s linear infinite;
+            z-index: 997;
+            opacity: 0.7;
+            animation-delay: -5s;
+            bottom: 20px;
+        }
+
+        &.wave5 {
+            animation: animate3 15s linear infinite;
+            z-index: 996;
+            opacity: 0.9;
+            animation-delay: -5s;
+            bottom: 0px;
+        }
+        &.wave6 {
+            animation: animate 30 linear infinite;
+            z-index: 995;
+            opacity: 0.3;
+            animation-delay: -5s;
+            bottom: 0px;
+        }
+        &.wave7 {
+            animation: animate3 5s linear infinite;
+            z-index: 994;
+            opacity: 0.5;
+            animation-delay: -2s;
+            bottom: 20px;
+        }
+        &.wave8 {
+            animation: animate2 5s linear infinite;
+            z-index: 993;
+            opacity: 0.4;
+            animation-delay: 5s;
+            bottom: 0px;
+        }
+    }
+
+    // .sand {
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 0;
+    //     height: auto;
+    //     width: 100%;
+        
+    //     >div {
+    //         filter: drop-shadow(-1px 0px 3px rgba(50, 50, 0, 0.5));
+    //         position: absolute;
+    //         bottom: 0;
+    //         left: 0;
+    //         height: auto;
+    //         width: 100%;
+
+    //         >div {
+    //             position: absolute;
+    //             width: 100%;
+    //             height: 1300px;
+    //             bottom: 0;
+    //             left: 0;
+    //             background-color: #c2b280;
+    //             clip-path: polygon(0% 97%, 100% 115%, 107% 67%, 86% 68%, 71% 70%, 59% 69%, 47% 68%, 40% 69%, 24% 71%, 8% 70%, 0 71%);
+    //         }
+
+    //         &:nth-child(2) {
+    //             bottom: -20px;
+    //             z-index: 99;
+    //             filter: drop-shadow(-13px 1px 1px rgba(50, 50, 0, 0.5));
+
+    //             > div{
+    //                 clip-path: polygon(0% 103%, 100% 115%, 100% 67%, 93% 68%, 71% 68%, 59% 69%, 47% 68%, 37% 69%, 24% 71%, 12% 70%, 0 71%);
+    //             }
+    //         }
+    //         &:nth-child(3) {
+    //             bottom: -40px;
+    //             z-index: 99;
+    //             filter: drop-shadow(-3px 1px 1px rgba(50, 50, 0, 0.5));
+
+    //             > div{
+    //                 clip-path: polygon(0% 103%, 100% 115%, 100% 68%, 88% 68%, 74% 71%, 61% 69%, 51% 70%, 38% 69%, 29% 71%, 17% 70%, 0 72%)
+    //             }
+    //         }
+    //     }
+
+    // }
+
+    // .sun{
+    //     position: absolute;
+    //     width: 100px;
+    //     height: 100px;
+    //     background: yellow;
+    //     left: 20%;
+    //     top: 15%;
+    //     border-radius: 50%;
+    //     box-shadow: 0 0 20px yellow, 
+    //                 0 0 50px yellow,
+    //                 0 0 200px yellow;
+    // }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: -1000px;
+    }
+}
+
+@keyframes animate3 {
+    0% {
+        bottom: 0;
+        background-position-x: 0;
+    }
+
+    50% {
+        bottom: 15px;
+        background-position-x: -500px;
+    }
+
+    100% {
+        bottom: 0px;
+        background-position-x: -1000px;
+    }
+}

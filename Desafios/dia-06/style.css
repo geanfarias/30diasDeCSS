@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(165deg, #003c52 0%, #000735 100%);
+  overflow: hidden;
+}
+
+section .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url(wave.png);
+  background-size: 1000px 100px;
+}
+
+section .wave.wave1 {
+  -webkit-animation: animate 30s linear infinite;
+          animation: animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  bottom: 0;
+}
+
+section .wave.wave2 {
+  -webkit-animation: animate2 15s linear infinite;
+          animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  bottom: 10px;
+}
+
+section .wave.wave3 {
+  -webkit-animation: animate 30s linear infinite;
+          animation: animate 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  bottom: 15px;
+}
+
+section .wave.wave4 {
+  -webkit-animation: animate2 5s linear infinite;
+          animation: animate2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  bottom: 20px;
+}
+
+section .wave.wave5 {
+  -webkit-animation: animate3 15s linear infinite;
+          animation: animate3 15s linear infinite;
+  z-index: 996;
+  opacity: 0.9;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  bottom: 0px;
+}
+
+section .wave.wave6 {
+  -webkit-animation: animate 30 linear infinite;
+          animation: animate 30 linear infinite;
+  z-index: 995;
+  opacity: 0.3;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  bottom: 0px;
+}
+
+section .wave.wave7 {
+  -webkit-animation: animate3 5s linear infinite;
+          animation: animate3 5s linear infinite;
+  z-index: 994;
+  opacity: 0.5;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  bottom: 20px;
+}
+
+section .wave.wave8 {
+  -webkit-animation: animate2 5s linear infinite;
+          animation: animate2 5s linear infinite;
+  z-index: 993;
+  opacity: 0.4;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  bottom: 0px;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@-webkit-keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+@-webkit-keyframes animate3 {
+  0% {
+    bottom: 0;
+    background-position-x: 0;
+  }
+  50% {
+    bottom: 15px;
+    background-position-x: -500px;
+  }
+  100% {
+    bottom: 0px;
+    background-position-x: -1000px;
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    bottom: 0;
+    background-position-x: 0;
+  }
+  50% {
+    bottom: 15px;
+    background-position-x: -500px;
+  }
+  100% {
+    bottom: 0px;
+    background-position-x: -1000px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
