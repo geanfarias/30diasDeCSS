@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap");
+html {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Anonymous Pro', monospace;
+  background-color: #191919;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  text-align: left;
+  width: 0em;
+  margin: auto;
+  margin-left: 0;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.line.text-1 {
+  opacity: 0;
+}
+
+.line.text-2 {
+  opacity: 0;
+  text-align: left;
+  border-right: 2px solid transparent;
+}
+
+.line.text-3 {
+  opacity: 0;
+  border-right: 2px solid transparent;
+}
+
+.line.text-4 {
+  opacity: 0;
+  border-right: 2px solid transparent;
+}
+
+.anim-typewriter {
+  -webkit-animation: blinkTextCursor 500ms steps(40) 0s infinite normal, typeriter 2s steps(40) 1s 1 normal both, untype1 1s steps(50) 5s, hideElement 1ms normal 6s 1 both;
+          animation: blinkTextCursor 500ms steps(40) 0s infinite normal, typeriter 2s steps(40) 1s 1 normal both, untype1 1s steps(50) 5s, hideElement 1ms normal 6s 1 both;
+}
+
+.anim-typewriter2 {
+  -webkit-animation: blinkTextCursor 500ms steps(40) 6s infinite normal, typeriter2 2s steps(40) 7s 1 normal both, untype2 1s steps(50) 10s, hideElement 1ms normal 11s 1 both;
+          animation: blinkTextCursor 500ms steps(40) 6s infinite normal, typeriter2 2s steps(40) 7s 1 normal both, untype2 1s steps(50) 10s, hideElement 1ms normal 11s 1 both;
+}
+
+.anim-typewriter3 {
+  -webkit-animation: blinkTextCursor 500ms steps(40) 11s infinite normal, typeriter2 2s steps(40) 12s 1 normal both, untype2 1s steps(50) 16s, hideElement 10ms normal 17s 1 both;
+          animation: blinkTextCursor 500ms steps(40) 11s infinite normal, typeriter2 2s steps(40) 12s 1 normal both, untype2 1s steps(50) 16s, hideElement 10ms normal 17s 1 both;
+}
+
+.anim-typewriter4 {
+  -webkit-animation: blinkTextCursor 500ms steps(40) 17s infinite normal, showElement 1ms normal 17s 1 both, typeriter 2s steps(40) 18s 1 normal both;
+          animation: blinkTextCursor 500ms steps(40) 17s infinite normal, showElement 1ms normal 17s 1 both, typeriter 2s steps(40) 18s 1 normal both;
+}
+
+@-webkit-keyframes typeriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 28ch;
+  }
+}
+
+@keyframes typeriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 28ch;
+  }
+}
+
+@-webkit-keyframes untype1 {
+  from {
+    width: 28ch;
+  }
+  to {
+    width: 0em;
+  }
+}
+
+@keyframes untype1 {
+  from {
+    width: 28ch;
+  }
+  to {
+    width: 0em;
+  }
+}
+
+@-webkit-keyframes untype2 {
+  from {
+    width: 20ch;
+  }
+  to {
+    width: 0em;
+  }
+}
+
+@keyframes untype2 {
+  from {
+    width: 20ch;
+  }
+  to {
+    width: 0em;
+  }
+}
+
+@-webkit-keyframes typeriter2 {
+  from {
+    width: 0em;
+  }
+  to {
+    width: 20ch;
+  }
+}
+
+@keyframes typeriter2 {
+  from {
+    width: 0em;
+  }
+  to {
+    width: 20ch;
+  }
+}
+
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@-webkit-keyframes hideElement {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes hideElement {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes showElement {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showElement {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */

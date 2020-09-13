@@ -35,7 +35,8 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 03 - Box card com borda estilizada](#dia03)
 * [Dia 04 - Botão com efeito neon](#dia04)
 * [Dia 05 - Título com efeito brilhando on hover](#dia05)
-* [Dia 05 - Ondas](#dia06)
+* [Dia 06 - Ondas](#dia06)
+* [Dia 07 - Typewriter Effect](#dia07)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -145,3 +146,19 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 * *[background](https://www.w3schools.com/css/css_background.asp)*
 * *[background-position](https://www.w3schools.com/cssref/pr_background-position.asp)*
+
+##  Dia 07 - Typewriter Effect <a name="dia07"></a>
+![Dia 07](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-07/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-07)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/XWdYKgB)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6711026771900301312-1Dqr) 
+
+##### O que coloquei em prática
+
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+* *[@keyframes](https://developer.mozilla.org/pt-BR/docs/Web/CSS/@keyframes)*
