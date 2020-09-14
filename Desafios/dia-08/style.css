@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background: #000;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-filter: url(#gooey);
+          filter: url(#gooey);
+}
+
+.container .circle {
+  position: relative;
+  min-width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.container .circle::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: -50px;
+  background: #fff;
+  z-index: -1;
+  border-radius: 50%;
+  -webkit-filter: blur(50px);
+          filter: blur(50px);
+}
+
+.container .circle.circle1 {
+  background: -webkit-gradient(linear, left top, right top, from(#f00), to(#0ff));
+  background: linear-gradient(90deg, #f00, #0ff);
+  -webkit-animation: animate1 5s linear infinite;
+          animation: animate1 5s linear infinite;
+}
+
+.container .circle.circle1::before {
+  background: -webkit-gradient(linear, left top, right top, from(#f00), to(#0ff));
+  background: linear-gradient(90deg, #f00, #0ff);
+}
+
+.container .circle.circle2 {
+  -webkit-animation: animate2 5s linear infinite;
+          animation: animate2 5s linear infinite;
+  background: -webkit-gradient(linear, left top, right top, from(#ffeb3b), to(#da00ff));
+  background: linear-gradient(90deg, #ffeb3b, #da00ff);
+}
+
+.container .circle.circle2::before {
+  background: -webkit-gradient(linear, left top, right top, from(#ffeb3b), to(#da00ff));
+  background: linear-gradient(90deg, #ffeb3b, #da00ff);
+}
+
+svg {
+  width: 0;
+  height: 0;
+}
+
+@-webkit-keyframes animate1 {
+  0% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+  30% {
+    -webkit-transform: translateX(250px) rotate(240deg);
+            transform: translateX(250px) rotate(240deg);
+  }
+  60% {
+    -webkit-transform: translateX(250px) rotate(480deg);
+            transform: translateX(250px) rotate(480deg);
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(720deg);
+            transform: translateX(0) rotate(720deg);
+  }
+}
+
+@keyframes animate1 {
+  0% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+  30% {
+    -webkit-transform: translateX(250px) rotate(240deg);
+            transform: translateX(250px) rotate(240deg);
+  }
+  60% {
+    -webkit-transform: translateX(250px) rotate(480deg);
+            transform: translateX(250px) rotate(480deg);
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(720deg);
+            transform: translateX(0) rotate(720deg);
+  }
+}
+
+@-webkit-keyframes animate2 {
+  0% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+  30% {
+    -webkit-transform: translateX(-250px) rotate(-240deg);
+            transform: translateX(-250px) rotate(-240deg);
+  }
+  60% {
+    -webkit-transform: translateX(-250px) rotate(-480deg);
+            transform: translateX(-250px) rotate(-480deg);
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(-720deg);
+            transform: translateX(0) rotate(-720deg);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+  }
+  30% {
+    -webkit-transform: translateX(-250px) rotate(-240deg);
+            transform: translateX(-250px) rotate(-240deg);
+  }
+  60% {
+    -webkit-transform: translateX(-250px) rotate(-480deg);
+            transform: translateX(-250px) rotate(-480deg);
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(-720deg);
+            transform: translateX(0) rotate(-720deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */

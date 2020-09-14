@@ -37,6 +37,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 05 - Título com efeito brilhando on hover](#dia05)
 * [Dia 06 - Ondas](#dia06)
 * [Dia 07 - Typewriter Effect](#dia07)
+* [Dia 08 - Efeito de Divisão](#dia08)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -162,3 +163,18 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
 * *[@keyframes](https://developer.mozilla.org/pt-BR/docs/Web/CSS/@keyframes)*
+
+##  Dia 08 - Efeito de Divisão <a name="dia08"></a>
+![Dia 08](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-08/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-08)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/VwadgNE)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6711408967748214784-sfwo) 
+
+##### O que coloquei em prática
+
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+* *[svg filters](https://www.w3schools.com/graphics/svg_filters_intro.asp)*
