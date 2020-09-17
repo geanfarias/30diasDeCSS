@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: #00bcd4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+label {
+  cursor: pointer;
+}
+
+.firsLabelDKM {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firsLabelDKM input[type="checkbox"] {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.sun-and-moon {
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50% !important;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.sun-and-moon span {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.sun-and-moon span:nth-child(1) {
+  width: 45%;
+  height: 45%;
+  display: block;
+  background: radial-gradient(#ffbf00, #ff9800);
+  -webkit-box-shadow: 0 0 0 #ffbf00, 0 0 10px #ffbf00, 0 0 50px #ffbf00, 0 0 150px #ffbf00;
+          box-shadow: 0 0 0 #ffbf00, 0 0 10px #ffbf00, 0 0 50px #ffbf00, 0 0 150px #ffbf00;
+  border-radius: 50% !important;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.sun-and-moon span:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: radial-gradient(circle, yellow 0%, #ffb200 10%);
+  -webkit-transform: skew(0);
+          transform: skew(0);
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.sun-and-moon span:nth-child(n + 2):nth-child(-n + 5) {
+  height: 80%;
+  width: 8%;
+  display: block;
+  position: absolute;
+  -webkit-box-shadow: 0 0 0 #ffbf00, 0 0 10px #ffbf00, 0 0 50px #ffbf00;
+          box-shadow: 0 0 0 #ffbf00, 0 0 10px #ffbf00, 0 0 50px #ffbf00;
+  background: radial-gradient(#ffbf00, #ff9800);
+  z-index: -9;
+  border-radius: 50% !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.sun-and-moon span:nth-child(3) {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.sun-and-moon span:nth-child(4) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.sun-and-moon span:nth-child(5) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star {
+  position: absolute;
+  left: 10%;
+  top: 13%;
+  height: 50px;
+  width: 50px;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star span {
+  height: 80%;
+  width: 8%;
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  z-index: -9;
+  opacity: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 50% !important;
+  -webkit-box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+          box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star span:nth-child(2) {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(2) {
+  left: 30%;
+  top: 50%;
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(3) {
+  left: 50%;
+  top: 80%;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(4) {
+  left: 90%;
+  top: 60%;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(5) {
+  left: 80%;
+  top: 5%;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(6) {
+  left: 40%;
+  top: 15%;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(7) {
+  left: 60%;
+  top: 50%;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(8) {
+  left: 20%;
+  top: 80%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(9) {
+  left: 30%;
+  top: 15%;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(10) {
+  left: 80%;
+  top: 60%;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(11) {
+  left: 70%;
+  top: 30%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg span.star:nth-child(12) {
+  left: 60%;
+  top: 90%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.firsLabelDKM input[type="checkbox"] ~ label.bg2 {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: radial-gradient(circle, #ffbb00 0%, #00bcd4 14%);
+  -webkit-clip-path: circle(100% at 50% 50%);
+          clip-path: circle(100% at 50% 50%);
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.sun-and-moon span {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.sun-and-moon span:nth-child(1) {
+  background: radial-gradient(#000838, #00169c);
+  height: 60%;
+  width: 60%;
+  -webkit-box-shadow: inset 5px -5px 0px 2px #ffffff;
+          box-shadow: inset 5px -5px 0px 2px #ffffff;
+  border: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.sun-and-moon span:nth-child(1)::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.sun-and-moon span:nth-child(n + 2):nth-child(-n + 5) {
+  height: 0%;
+  width: 0%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg {
+  background-color: #001280;
+  -webkit-clip-path: circle(100% at 50% 50%);
+          clip-path: circle(100% at 50% 50%);
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star span {
+  -webkit-animation: star 2s infinite;
+          animation: star 2s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(2) span {
+  -webkit-animation: star 5s infinite;
+          animation: star 5s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(3) span {
+  -webkit-animation: star 1s infinite;
+          animation: star 1s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(4) span {
+  -webkit-animation: star 0.5s infinite;
+          animation: star 0.5s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(5) span {
+  -webkit-animation: star 3s infinite;
+          animation: star 3s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(6) span {
+  -webkit-animation: star 2s infinite;
+          animation: star 2s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(7) span {
+  -webkit-animation: star 5s infinite;
+          animation: star 5s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(8) span {
+  -webkit-animation: star 1s infinite;
+          animation: star 1s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(9) span {
+  -webkit-animation: star 0.5s infinite;
+          animation: star 0.5s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(10) span {
+  -webkit-animation: star 2s infinite;
+          animation: star 2s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(11) span {
+  -webkit-animation: star 1s infinite;
+          animation: star 1s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg span.star:nth-child(12) span {
+  -webkit-animation: star 2s infinite;
+          animation: star 2s infinite;
+}
+
+.firsLabelDKM input[type="checkbox"]:checked ~ label.bg2 {
+  -webkit-clip-path: circle(0% at 50% 50%);
+          clip-path: circle(0% at 50% 50%);
+}
+
+@-webkit-keyframes star {
+  0% {
+    -webkit-box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+            box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 50px #fff, 0 0 10px #fff, 0 0 20px #fff;
+            box-shadow: 0 0 50px #fff, 0 0 10px #fff, 0 0 20px #fff;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+            box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+  }
+}
+
+@keyframes star {
+  0% {
+    -webkit-box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+            box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 50px #fff, 0 0 10px #fff, 0 0 20px #fff;
+            box-shadow: 0 0 50px #fff, 0 0 10px #fff, 0 0 20px #fff;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+            box-shadow: 0 0 10px #fff, 0 0 50px #fff, 0 0 90px #fff;
+  }
+}
+/*# sourceMappingURL=style.css.map */

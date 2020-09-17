@@ -39,6 +39,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 07 - Typewriter Effect](#dia07)
 * [Dia 08 - Efeito de Divisão](#dia08)
 * [Dia 09 - Cubos](#dia09)
+* [Dia 10 - Dia/Noite](#dia10)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -194,3 +195,18 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
 * *[filters](https://www.w3schools.com/cssref/css3_pr_filter.asp)*
+
+##  Dia 10 - Dia/Noite <a name="dia10"></a>
+![Dia 10](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-10/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-10)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/RwaYRjO)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6712199394847948800-Nqg1) 
+
+##### O que coloquei em prática
+
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
