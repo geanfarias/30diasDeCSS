@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #b6b6b6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: consolas;
+}
+
+.container {
+  width: 1000px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .card {
+  position: relative;
+}
+
+.container .card:hover .face.face1 {
+  background: #ff0057;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card:hover .face.face1 .content img {
+  max-width: 100px;
+}
+
+.container .card:hover .face.face2 {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.container .face {
+  width: 300px;
+  height: 200px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .face.face1 {
+  position: relative;
+  background: #b6b6b6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.container .face.face1 .content {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .face.face1 .content img {
+  max-width: 80px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #000;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .face.face2 {
+  position: relative;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+.container .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .face.face2 .content a {
+  margin: 15px 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .face.face2 .content a:hover {
+  background: #333;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
