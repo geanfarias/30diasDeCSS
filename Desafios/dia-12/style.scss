@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #fff9;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .card {
+        height: 400px;
+        width: 400px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px gray;
+        position: relative;
+        margin: 0 100px;
+        transition: 1s;
+
+        .content {
+            background: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 100%;
+            padding: 10px;
+            position: relative;
+            overflow: hidden;
+
+            h2 {
+                font-weight: 700;
+                font-size: 3.5em;
+                letter-spacing: 10px;
+                text-transform: uppercase;
+                z-index: 1;
+                height: 50%;
+                color: #fff;
+                text-shadow: 0 0 0 #fff;
+                transition: 0.4s;
+                mix-blend-mode: difference;
+
+                ~.cicle {
+                    transform: translate(20%, -35%) scale(1);
+                    user-select: none;
+                    height: 300px;
+                    width: 300px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    border-radius: 50%;
+                    background: rgb(0, 0, 0);
+                    transition: 1s;
+                    animation: scaleCircle 3s infinite;
+                    animation-delay: 2s;
+                }
+
+                ~.square {
+                    transform: translate(20%, -35%) rotate(-12deg) scale(1);
+                    user-select: none;
+                    height: 300px;
+                    width: 300px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    border-radius: 5%;
+                    background: rgb(0, 0, 0);
+                    transition: 1s;
+                    animation: rotateSquare 3s infinite;
+                    animation-delay: 2s;
+                }
+            }
+
+            p {
+                z-index: 1;
+                color: #fff;
+                mix-blend-mode: difference;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0px 0px 50px 15px #000;
+    
+            .content {
+                h2 {
+                    text-shadow: 3px 3px 5px #fff;
+                    ~.cicle {
+                        width: 1000px;
+                        height: 1000px;
+                    }
+    
+                    ~.square {
+                        width: 1000px;
+                        height: 1000px;
+                    }
+                    span{
+                        animation-play-state: paused;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@keyframes scaleCircle{
+    0%{
+        transform: translate(20%, -35%) scale(1);
+    }
+    50%{
+        transform: translate(20%, -35%) scale(1.5);
+    }
+    100%{
+        transform: translate(20%, -35%) scale(1);
+    }
+}
+
+@keyframes rotateSquare{
+    0%{
+        transform: translate(20%, -35%) rotate(-12deg) scale(1);
+    }
+    50%{
+        transform: translate(20%, -35%) rotate(20deg) scale(1.5);
+    }
+    100%{
+        transform: translate(20%, -35%) rotate(78deg) scale(1);
+    }
+}
