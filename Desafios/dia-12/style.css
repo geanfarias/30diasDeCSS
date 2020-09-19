@@ -81,7 +81,7 @@ body {
   mix-blend-mode: difference;
 }
 
-.container .card .content h2 ~ .cicle {
+.container .card .content h2 ~ .circle {
   -webkit-transform: translate(20%, -35%) scale(1);
           transform: translate(20%, -35%) scale(1);
   -webkit-user-select: none;
@@ -140,7 +140,7 @@ body {
   text-shadow: 3px 3px 5px #fff;
 }
 
-.container .card:hover .content h2 ~ .cicle {
+.container .card:hover .content h2 ~ .circle {
   width: 1000px;
   height: 1000px;
 }

@@ -55,7 +55,7 @@ body {
                 transition: 0.4s;
                 mix-blend-mode: difference;
 
-                ~.cicle {
+                ~.circle {
                     transform: translate(20%, -35%) scale(1);
                     user-select: none;
                     height: 300px;
@@ -99,7 +99,7 @@ body {
             .content {
                 h2 {
                     text-shadow: 3px 3px 5px #fff;
-                    ~.cicle {
+                    ~.circle {
                         width: 1000px;
                         height: 1000px;
                     }

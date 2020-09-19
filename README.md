@@ -234,7 +234,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 
 [Meu código codepen](https://codepen.io/geanfarias/pen/BaKqdBN)
 
-[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6712908332262277120-ODvh) 
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6712912351051444224-u6zR) 
 
 ##### O que coloquei em prática
 
