@@ -41,7 +41,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 09 - Cubos](#dia09)
 * [Dia 10 - Dia/Noite](#dia10)
 * [Dia 11 - Cards expansível](#dia11)
-* [Dia 12 - Card Cicle/Square](#dia12)
+* [Dia 12 - Card Circle/Square](#dia12)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -227,7 +227,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
 
-##  Dia 12 - Card Cicle/Square <a name="dia12"></a>
+##  Dia 12 - Card Circle/Square <a name="dia12"></a>
 ![Dia 12](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-12/screenshot.gif)
 
 [Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-12)
