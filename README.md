@@ -42,6 +42,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 10 - Dia/Noite](#dia10)
 * [Dia 11 - Cards expansível](#dia11)
 * [Dia 12 - Card Circle/Square](#dia12)
+* [Dia 13 - Fill text](#dia12)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -241,3 +242,18 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+##  Dia 13 - Fill text/Square <a name="dia13"></a>
+![Dia 13](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-13/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-13)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/wvGYReW)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6713244488820654080-wYvX) 
+
+##### O que coloquei em prática
+
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+* *[attr()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/attr)*

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.text {
+    position: absolute;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: gray;
+
+    &::before {
+        content: attr(data-text);
+        color: black;
+        position: absolute;
+        width: 0;
+        white-space: nowrap;
+        font-size: 80px;
+        overflow: hidden;
+        transition: 1s;
+    }
+
+    &:hover {
+        &::before {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.text {
+  position: absolute;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: gray;
+}
+
+.text::before {
+  content: attr(data-text);
+  color: black;
+  position: absolute;
+  width: 0;
+  white-space: nowrap;
+  font-size: 80px;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.text:hover::before {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
