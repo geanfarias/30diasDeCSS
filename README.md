@@ -42,7 +42,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 10 - Dia/Noite](#dia10)
 * [Dia 11 - Cards expansível](#dia11)
 * [Dia 12 - Card Circle/Square](#dia12)
-* [Dia 13 - Fill text](#dia12)
+* [Dia 13 - Fill text](#dia13)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
