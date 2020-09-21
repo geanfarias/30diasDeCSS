@@ -43,6 +43,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 11 - Cards expansível](#dia11)
 * [Dia 12 - Card Circle/Square](#dia12)
 * [Dia 13 - Fill text](#dia13)
+* [Dia 14 - Botão preenchido](#dia14)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -257,3 +258,18 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
 * *[attr()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/attr)*
+
+##  Dia 14 - Botão preenchido <a name="dia14"></a>
+![Dia 13](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-14/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-14)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/XWdydxr)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6713635908823871488-ZZNJ) 
+
+##### O que coloquei em prática
+
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+* *[scale()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/scale)*
