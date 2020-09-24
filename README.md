@@ -46,7 +46,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 14 - Botão preenchido](#dia14)
 * [Dia 15 - Flip card](#dia15)
 * [Dia 16 - Loader](#dia16)
-* [Dia 17 - Loader](#dia17)
+* [Dia 17 - Letter](#dia17)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -302,4 +302,19 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
 * *[scale()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/scale)*
+* *[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)*
+
+##  Dia 17 - Letter <a name="dia17"></a>
+![Dia 17](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-17/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-17)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/jOqdrMe)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6714730532581720064-C_ft) 
+
+##### O que coloquei em prática
+
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
 * *[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)*
