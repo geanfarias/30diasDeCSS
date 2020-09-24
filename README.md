@@ -46,6 +46,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 14 - Botão preenchido](#dia14)
 * [Dia 15 - Flip card](#dia15)
 * [Dia 16 - Loader](#dia16)
+* [Dia 17 - Loader](#dia17)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>

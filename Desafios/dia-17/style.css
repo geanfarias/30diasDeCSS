@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #302929;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  position: absolute;
+}
+
+.wrapper .mail {
+  width: 300px;
+  height: 200px;
+  background: #ff8789;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.wrapper .mail::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid #ff393c;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid #ff393c;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 5;
+}
+
+.wrapper .mail::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 150px solid #ff5355;
+  border-right: 150px solid transparent;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid #ff5355;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 4;
+}
+
+.wrapper .mail .letter {
+  position: relative;
+  z-index: 3;
+  top: 0;
+  background: #dedede;
+  width: 80%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  font-family: "Playball";
+  -webkit-box-shadow: 4px 1px 5px -4px #000;
+          box-shadow: 4px 1px 5px -4px #000;
+}
+
+.wrapper .mail .letter h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.wrapper .mail .cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 100px solid #ff8789;
+  border-bottom: 100px solid transparent;
+  z-index: 6;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition-delay: 0.9s;
+          transition-delay: 0.9s;
+}
+
+.wrapper .mail:hover .cover::before {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+.wrapper .mail:hover .letter {
+  top: -50%;
+}
+/*# sourceMappingURL=style.css.map */
