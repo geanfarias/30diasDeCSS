@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Popping', sans-serif;
+}
+
+html {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+.container {
+  height: 80px;
+  width: 30vw;
+  line-height: 80px;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.container .menu li {
+  list-style: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container .menu li a {
+  color: #1d1f20;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.container .menu li:first-child a {
+  color: #f23b26;
+  font-weight: 900;
+}
+
+.container .menu li:hover a {
+  color: #f23b26;
+}
+
+.container .menu li:nth-child(2):hover ~ .line {
+  left: 20%;
+}
+
+.container .menu li:nth-child(3):hover ~ .line {
+  left: 40%;
+}
+
+.container .menu li:nth-child(4):hover ~ .line {
+  left: 60%;
+}
+
+.container .menu li:nth-child(5):hover ~ .line {
+  left: 80%;
+}
+
+.container .menu .line {
+  height: 5px;
+  width: 20%;
+  left: 0;
+  position: absolute;
+  background: #f23b26;
+  bottom: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+span {
+  font-weight: unset !important;
+}
+/*# sourceMappingURL=style.css.map */

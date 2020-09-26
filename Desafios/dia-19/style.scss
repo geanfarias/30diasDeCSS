@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popping', sans-serif;
+}
+
+html {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+.container {
+    height: 80px;
+    width: 30vw;
+    line-height: 80px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+
+    .menu{
+        display: flex;
+        position: relative;
+
+        li{
+            list-style: none;
+            flex: 1;
+            font-size: 30px;
+            cursor: pointer;
+            user-select: none;
+
+            a{
+                color: #1d1f20;
+                transition: color 0.3s ease-in-out;
+
+            }
+            &:first-child{
+                a{
+                    color: #f23b26;
+                    font-weight: 900;
+                }
+            }
+
+            &:hover{
+                a{
+                    color: #f23b26;
+                }
+            }
+
+            &:nth-child(2){
+                &:hover{
+                    ~ .line{
+                        left: 20%;
+                    }
+                }
+            }
+            &:nth-child(3){
+                &:hover{
+                    ~ .line{
+                        left: 40%;
+                    }
+                }
+            }
+            &:nth-child(4){
+                &:hover{
+                    ~ .line{
+                        left: 60%;
+                    }
+                }
+            }
+            &:nth-child(5){
+                &:hover{
+                    ~ .line{
+                        left: 80%;
+                    }
+                }
+            }
+        }
+
+        .line{
+            height: 5px;
+            width: 20%;
+            left: 0;
+            position: absolute;
+            background: #f23b26;
+            bottom: 0;
+            transition: 0.3s ease;
+        }
+    }
+}
+
+span{
+    font-weight: unset !important;
+}
