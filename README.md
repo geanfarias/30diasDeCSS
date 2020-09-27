@@ -49,6 +49,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 17 - Letter](#dia17)
 * [Dia 18 - PacMan](#dia18)
 * [Dia 19 - Tab Menu](#dia19)
+* [Dia 20 - Foguete](#dia20)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -347,7 +348,19 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 
 ##### O que coloquei em prática
 
+##  Dia 20 - Foguete <a name="dia20"></a>
+![Dia 20](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-20/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-20)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/zYqbbGM)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6715872867306766336-2PpP) 
+
+##### O que coloquei em prática
+
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
-* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)*
+* *[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)*
