@@ -1,0 +1,95 @@
+:root {
+  --background: #f8f8f8;
+  --dark: #303032;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: var(--background);
+}
+
+.box {
+  position: relative;
+  background: var(--dark);
+  border: 0.25rem solid var(--dark);
+  height: 8rem;
+  width: 8rem;
+  outline: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.box::before {
+  content: url(st-white.svg);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box::after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: var(--background);
+  border-radius: 35%;
+  -webkit-animation: spin 10s ease-in-out infinite;
+          animation: spin 10s ease-in-out infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: translateY(0) rotate(deg);
+            transform: translateY(0) rotate(deg);
+  }
+  50% {
+    -webkit-transform: translateY(-100%) rotate(400deg);
+            transform: translateY(-100%) rotate(400deg);
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(deg);
+            transform: translateY(0) rotate(deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: translateY(0) rotate(deg);
+            transform: translateY(0) rotate(deg);
+  }
+  50% {
+    -webkit-transform: translateY(-100%) rotate(400deg);
+            transform: translateY(-100%) rotate(400deg);
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(deg);
+            transform: translateY(0) rotate(deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
