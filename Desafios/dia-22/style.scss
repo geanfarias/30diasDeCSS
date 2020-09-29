@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(0deg, #f3f3f3, #00000061);
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // transform: skewY(-10deg);
+
+    .card{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background: #fff;
+        transition: 0.5s;
+        transform: skewY(-10deg);
+
+        .imgBx{
+            position: relative;
+            height: 200px;
+            width: 300px;
+            background: #00c7ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            img{
+                max-width: 80px;
+            }
+
+            h3{
+                position: relative;
+                color: #fff;
+                margin-top: 10px;
+            }
+        }
+
+        .content{
+            position: relative;
+            width: 100%;
+            height: 200px;
+            padding: 20px;
+            text-align: center;
+            background: #fff;
+
+            &::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 400px;
+                background: linear-gradient(transparent, rgba(0,0,0,0.1));
+                transform-origin: bottom;
+                transform: skewX(45deg);
+                transition: 0.5s;
+                pointer-events: none;
+                z-index: -1;
+            }
+        }
+
+        &:hover{
+            transform: translateY(-40px) skewY(-10deg);
+
+            .content{
+                &::before{
+                    transform: translateY(40px) skewX(45deg);
+                    filter: blur(5px);
+                    opacity: 0.5s;
+                }
+            }
+        }
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: 0;
+            width: 100%;
+            height: 15px;
+            background: #00c0f6;
+            transform-origin: bottom;
+            transform: skewX(45deg);
+            transition: 0.5s;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            width: 15px;
+            height: 50%;
+            background: #00c0f6;
+            transform-origin: left;
+            transform: skewY(45deg);
+            transition: 0.5s;
+            border-bottom: 200px solid #d9d9d9;
+        }
+
+        &:nth-child(1){
+            z-index: 3;
+        }
+
+        &:nth-child(2){
+            z-index: 2;
+        }
+        &:nth-child(3){
+            z-index: 1;
+        }
+    }
+}

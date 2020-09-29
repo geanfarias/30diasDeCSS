@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f3f3f3), to(#00000061));
+  background: linear-gradient(0deg, #f3f3f3, #00000061);
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 1050px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: skewY(-10deg);
+          transform: skewY(-10deg);
+}
+
+.container .card .imgBx {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  background: #00c7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .card .imgBx img {
+  max-width: 80px;
+}
+
+.container .card .imgBx h3 {
+  position: relative;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.container .card .content {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.container .card .content::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.1)));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: skewX(45deg);
+          transform: skewX(45deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.container .card:hover {
+  -webkit-transform: translateY(-40px) skewY(-10deg);
+          transform: translateY(-40px) skewY(-10deg);
+}
+
+.container .card:hover .content::before {
+  -webkit-transform: translateY(40px) skewX(45deg);
+          transform: translateY(40px) skewX(45deg);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  opacity: 0.5s;
+}
+
+.container .card::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background: #00c0f6;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: skewX(45deg);
+          transform: skewX(45deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .card::after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 15px;
+  height: 50%;
+  background: #00c0f6;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: skewY(45deg);
+          transform: skewY(45deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 200px solid #d9d9d9;
+}
+
+.container .card:nth-child(1) {
+  z-index: 3;
+}
+
+.container .card:nth-child(2) {
+  z-index: 2;
+}
+
+.container .card:nth-child(3) {
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
