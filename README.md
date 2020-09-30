@@ -52,6 +52,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 20 - Foguete](#dia20)
 * [Dia 21 - Preenchimento](#dia21)
 * [Dia 22 - Card 3D](#dia22)
+* [Dia 23 - Menu Card - Neumorfismo](#dia23)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -400,3 +401,18 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 * *[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)*
 * *[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)*
+
+##  Dia 23 - Menu Card - Neumorfismo <a name="dia23"></a>
+![Dia 22](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-23/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-23)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/eYZaeLL)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6716917770040184832-Oyu-) 
+
+##### O que coloquei em prática
+
+* *[Conceitos de UI - Neumorphism](https://desenvolvimentoparaweb.com/design/neumorfismo-neumorphism-ui/)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
