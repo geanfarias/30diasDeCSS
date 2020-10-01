@@ -53,6 +53,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 21 - Preenchimento](#dia21)
 * [Dia 22 - Card 3D](#dia22)
 * [Dia 23 - Menu Card - Neumorfismo](#dia23)
+* [Dia 24 - Barra de progresso - Neumorfismo](#dia24)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -410,6 +411,21 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 [Meu código codepen](https://codepen.io/geanfarias/pen/eYZaeLL)
 
 [Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6716917770040184832-Oyu-) 
+
+##### O que coloquei em prática
+
+* *[Conceitos de UI - Neumorphism](https://desenvolvimentoparaweb.com/design/neumorfismo-neumorphism-ui/)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+
+##  Dia 24 - Barra de progresso - Neumorfismo <a name="dia24"></a>
+![Dia 24](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-24/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-24)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/XWdLbGg)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6717276637018234880-Ism_) 
 
 ##### O que coloquei em prática
 
