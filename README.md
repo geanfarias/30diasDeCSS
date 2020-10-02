@@ -54,6 +54,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 22 - Card 3D](#dia22)
 * [Dia 23 - Menu Card - Neumorfismo](#dia23)
 * [Dia 24 - Barra de progresso - Neumorfismo](#dia24)
+* [Dia 25 - Box card estilizado](#dia25)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -432,3 +433,18 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[Conceitos de UI - Neumorphism](https://desenvolvimentoparaweb.com/design/neumorfismo-neumorphism-ui/)*
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+
+##  Dia 25 - Box card estilizado <a name="dia25"></a>
+![Dia 25](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-25/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-25)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/NWNZBmp)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6717636042838552576-AJ94) 
+
+##### O que coloquei em prática
+
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
