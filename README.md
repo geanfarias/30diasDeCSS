@@ -55,6 +55,7 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * [Dia 23 - Menu Card - Neumorfismo](#dia23)
 * [Dia 24 - Barra de progresso - Neumorfismo](#dia24)
 * [Dia 25 - Box card estilizado](#dia25)
+* [Dia 26 - Box-shadow gradiente](#dia26)
 
 ## ⌨️ Desafios Feitos
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="dia01"></a>
@@ -448,3 +449,20 @@ Distribuído sob a licença MIT. Consulte [LICENSE](https://opensource.org/licen
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+##  Dia 26 - Box-shadow gradiente <a name="dia26"></a>
+![Dia 26](https://raw.githubusercontent.com/geanfarias/30diasDeCSS/master/Desafios/dia-26/screenshot.gif)
+
+[Meu código git](https://github.com/geanfarias/30diasDeCSS/tree/master/Desafios/dia-26)
+
+[Meu código codepen](https://codepen.io/geanfarias/pen/yLOmpZQ)
+
+[Post LinkedIn](https://www.linkedin.com/posts/geanfarias_30diasdecss-css-frontend-activity-6718352418150612992-BppZ) 
+
+##### O que coloquei em prática
+
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[animation e propriedades](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[background: linear-gradient()](https://www.w3schools.com/cssref/func_linear-gradient.asp)*
+* *[filters](https://www.w3schools.com/cssref/css3_pr_filter.asp)*

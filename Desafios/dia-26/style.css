@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box h2 {
+  font-size: 3em;
+  color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.box:nth-child(1) {
+  background: linear-gradient(135deg, #f403d1, #64b5f6);
+}
+
+.box:nth-child(1)::before {
+  background: linear-gradient(135deg, #f403d1, #64b5f6);
+}
+
+.box:nth-child(2) {
+  background: linear-gradient(135deg, #ffec61, #f321d7);
+}
+
+.box:nth-child(2)::before {
+  background: linear-gradient(135deg, #ffec61, #f321d7);
+}
+
+.box:nth-child(3) {
+  background: linear-gradient(135deg, #24ff72, #2196f3);
+}
+
+.box:nth-child(3)::before {
+  background: linear-gradient(135deg, #24ff72, #2196f3);
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(25px);
+          filter: blur(25px);
+  -webkit-transform: translateY(30px) scale(0.9);
+          transform: translateY(30px) scale(0.9);
+}
+
+.box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */
