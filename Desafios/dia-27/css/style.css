@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: #EDF2ED;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 170px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  color: #4F4F4F;
+}
+
+.container .school-info {
+  text-align: center;
+}
+
+.container .school-info img {
+  width: 110px;
+}
+
+.container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 1060px) {
+  .container .content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+  .container .content > * > * {
+    margin-bottom: 20px !important;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .container .content > div {
+    margin: 0 50px;
+  }
+}
+
+.container .content .vote-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .content .vote-info .vote-options {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .content .vote-info .vote-options label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 10px;
+}
+
+.container .content .vote-info .vote-options label input {
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.container .content .vote-info .vote-options label input ~ span {
+  background: #5DD984;
+  border-radius: 30px;
+  width: 120px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #F4F9F4;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  padding: 0 15px;
+  opacity: 0.8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .content .vote-info .vote-options label input ~ span::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+}
+
+.container .content .vote-info .vote-options label input ~ span::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #5dd984;
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .content .vote-info .vote-options label input ~ span:hover {
+  opacity: 1;
+}
+
+.container .content .vote-info .vote-options label input:checked ~ span::after {
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
+.container .content .vote-info .vote-options label:nth-child(2) span {
+  background: #F55451;
+}
+
+.container .content .vote-info .vote-options label:nth-child(2) span::after {
+  background: #F55451;
+}
+
+.container .content .vote-img img {
+  width: 100%;
+}
+
+.container .content .email label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  height: 60px;
+  position: relative;
+  margin: 30px 0px;
+}
+
+.container .content .email label input {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: #D9DED9;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  text-indent: 40px;
+  color: #4f4f4f;
+}
+
+.container .content .email label input ~ span {
+  position: absolute;
+  left: 10px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+.container h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.container h3 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer-info {
+  height: 40px;
+  background: #4F4F4F;
+  color: #F4F9F4;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .footer-info {
+    font-size: 17px;
+  }
+}
+
+input[type="submit"] {
+  width: 250px;
+  height: 60px;
+  background: #5DD984;
+  border-radius: 30px;
+  border: none;
+  color: #EDF2ED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  top: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type="submit"]:hover {
+  top: -2px;
+  -webkit-box-shadow: 0px 4px 2px 0px #4F4F4F;
+          box-shadow: 0px 4px 2px 0px #4F4F4F;
+}
+
+input[type="submit"]:focus, input[type="submit"]:focus-within, input[type="submit"]:active {
+  top: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
